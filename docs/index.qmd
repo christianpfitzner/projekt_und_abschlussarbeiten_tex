@@ -1,0 +1,16 @@
+---
+title: "Abschluss- und Projektarbeiten"
+date: today
+date-format: "DD.MM.YYYY"
+---
+
+Hier finden Sie eine Übersicht der aktuellen Abschluss- und Projektarbeiten von Prof. Schröder, Fakultät efi, OHM Technische Hochschule Nürnberg.
+
+Soweit nicht anders angegeben, können alle Themen als Bachelor- oder Masterarbeit bearbeitet werden, sowie als Projektarbeit.
+
+## Offene Themen
+* [Erkennung von Objekten mittels Semantischer
+Segmentierung](2025_03_semseg.pdf)
+* [Greifen von Objekten mittels Reinforcement Learning](2025_03_rl_grasping.pdf)
+* [Implementierung einer ROS-Softwarekomponente zur
+Ansteuerung eines Roboterarms](2025_03_armcontroller.pdf)
