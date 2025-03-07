@@ -1,6 +1,6 @@
 \documentclass{ohm_project_description}
 
-\projecttitle{Greifen von Objekten mittels Reinforcement Learning}
+\projecttitle{Greifen von bewegten Objekten}
 \projectauthor{Labor für mobile Robotik}
 \projectdate{2025}
 
@@ -18,27 +18,24 @@
 
 Das Team \textbf{AutonOhm} des Labors für Mobile Robotik nimmt seit vielen Jahren erfolgreich am RoboCup Industrial @Work Wettbewerb teil. Ziel dieses Wettbewerbs ist es, einen mobilen Roboter zu entwickeln, der sich selbstständig in einer Arena zurechtfindet und vordefinierte Aufgaben der Form "Transportiere Gegenstand A von Tisch B zu Tisch C" durchführt. Für diese Aufgaben ist ein komplexes Gesamtsystem aus \emph{Lokalisierung}, \emph{Wahrnehmung}, \emph{Planung} und \emph{Steuerung} notwendig. Es bietet daher für interessierte Studierende neben einer Vielzahl von spannenden Themen im Bereich der mobilen Robotik auch die Möglichkeit, praxisnah an einem \emph{echten} Robotersystem zu arbeiten.
 
-Ein wesentlicher Bestandteil des Systems ist das \emph{Greifen} von Objekten. Aktuell werden die Objekte mittels weniger, vordefinierter Greifposen gegriffen, weshalb ein erfolgreicher Greifvorgang häufig von der Konstruktion des Greiferelements und der Form des Objekts abhängt. Ziel der Arbeit ist es, Reinforcement Learning (bestärkendes Lernen) zu verwernden, um automatisch in Abhängigkeit der Objektform und der Greiferkonstruktion die optimalen Greifpositionen und -bewegungen zu lernen. Dies kann im ersten Schritt in einer Simulationsumgebung erfolgen. Im zweiten Schritt soll das entwickelte Verfahren am echten Roboterarm erprobt werden. 
+Im Rahmen des Wettbewerbs müssen Objekte von einer rotierenden Tischplatte gegriffen werden. Der Roboter muss daher die Bewegung der Tischplatte erkennen und die Objektpositionen entsprechend in die Zukunft predizieren. Dann muss eine geeignete Arm- und Greifpose berechnet werden, um das bewegte Objekt zu greifen. Ziel der Arbeit ist es, eine Lösung für dieses Problem zu entwickeln.  
 
-Engagement und Mitarbeit im studentischen Team AutonOhm sind ausdrücklich erwünscht! Es besteht die Möglichkeit, im Rahmen der Arbeit an nationalen und internationalen Wettbewerben teilzunehmen.
-
+Engagement und Mitarbeit im studentischen Team Autonohm sind ausdrücklich erwünscht! Es besteht die Möglichkeit, im Rahmen der Arbeit an nationalen und internationalen Wettbewerben teilzunehmen.
 
 \section*{Arbeitspakete}
 \begin{itemize}[leftmargin=0.5cm]
     \setlength\itemsep{.1em}
-    \item Recherche und Implementierung einer geeigneten Reinformcement-Learning Methode zum optimalen Greifen von verschiedenen starren Objekten
-    \item Aufsetzen einer Simulationsumgebung
-    \item Training und Validierung der Methode in der Simulation
-    \item Training und Validierung an einem echten Roboterarm im Labor
-    \item (optional) Integration und Demonstration auf dem mobilen Robotersystem 
+    \item Einarbeiten in die aktuelle Systemarchitektur des @Work Roboters
+    \item Recherche und Implementierung eines Algorithmus für das Tracking von bewegten Objekten
+    \item Recherche und Implementierung eines Algorithmus zur Berechnung von Greifposen von bewegten Objekten
+    \item Integration und Demonstration auf dem Robotersystem 
 \end{itemize}
 
 \section*{Voraussetzungen}
 \begin{itemize}[leftmargin=0.5cm]
     \setlength\itemsep{.1em}
     \item Grundkenntnisse in einer höheren Programmiersprache (z.B. Python, C++)
-    \item Grundkenntnisse in Deep Learning
-    \item (optional) Grundkenntnisse im Bereich Reinforcement Learning
+    \item Grundkenntnisse in mobiler Robotik
     \item (optional) Grundkenntnisse in ROS
 \end{itemize}
 
